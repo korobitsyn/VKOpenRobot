@@ -15,7 +15,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class AntiGate {
+class AntiGate {
     private String key = "";
     private String boundary = "---------FGf4Fh3fdlKR148fdh";
     private int count = 100;

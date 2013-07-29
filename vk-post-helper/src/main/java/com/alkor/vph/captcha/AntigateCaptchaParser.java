@@ -2,6 +2,7 @@ package com.alkor.vph.captcha;
 
 import org.apache.commons.io.IOUtils;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,19 +16,38 @@ import java.util.Calendar;
  */
 public class AntigateCaptchaParser implements CaptchaParser {
 
-    private AntiGate antiGate;
+    private static final String notParsedCaptchaFileNameTemplate = "not-parsed-captcha-%d.jpg";
 
-    private ConsoleCaptchaParser consoleCaptchaParser = new ConsoleCaptchaParser();
+    private final AntiGate antiGate;
 
-    public AntigateCaptchaParser() {
-        antiGate = new AntiGate();
-        antiGate.setKey("e36ae5781fbcd185906c0325d14e5156");
+    private int parseTryCount = 3;
+
+    private String notParsedCaptchaPath = "";
+
+    public static CaptchaParser createInstance(String key) {
+        return new AntigateCaptchaParser(key);
+    }
+
+    public int getParseTryCount() {
+        return parseTryCount;
+    }
+
+    public void setParseTryCount(int parseTryCount) {
+        this.parseTryCount = parseTryCount;
+    }
+
+    public String getNotParsedCaptchaPath() {
+        return notParsedCaptchaPath;
+    }
+
+    public void setNotParsedCaptchaPath(String notParsedCaptchaPath) {
+        this.notParsedCaptchaPath = notParsedCaptchaPath;
     }
 
     @Override
     public String parseCaptcha(String captchaUrl) throws IOException {
         URL url = new URL(captchaUrl);
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < parseTryCount; i++) {
             InputStream is = url.openStream();
             byte[] bytes = IOUtils.toByteArray(is);
             is.close();
@@ -36,12 +56,18 @@ public class AntigateCaptchaParser implements CaptchaParser {
             if (text != "") {
                 return text;
             } else {
-                FileOutputStream fileOutputStream = new FileOutputStream("not-parsed-captcha-" + Calendar.getInstance().getTime().getTime() + ".jpg");
+                File file = new File(notParsedCaptchaPath, String.format(notParsedCaptchaFileNameTemplate, Calendar.getInstance().getTime().getTime()));
+                FileOutputStream fileOutputStream = new FileOutputStream(file);
                 IOUtils.write(bytes, fileOutputStream);
                 fileOutputStream.close();
             }
         }
-        return consoleCaptchaParser.parseCaptcha(captchaUrl);
+        return null;
+    }
+
+    private AntigateCaptchaParser(String key) {
+        antiGate = new AntiGate();
+        antiGate.setKey(key);
     }
 
 }
