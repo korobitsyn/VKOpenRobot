@@ -21,15 +21,13 @@ import java.util.*;
  */
 public class FriendInviteBot {
 
-    private final String vkToken = "e1c7e4798a8957ba57269160b81fc85c67ebe2a7b60dc4df841803af87aed3f785732551ba0bc2fe15846";
+    private final String vkToken = "YOUR-VK-TOKEN";
 
-    private final String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
+    private final String antigateToken = "YOUR-ANTIGATE-TOKEN";
 
     private final String groupQuery = "java";
 
-    //private final String greetingTemplate = "Hi, %s! My name is %s. We are in the one group with you '%s', so we've something to say each other, friend me!";
-
-    private final String greetingTemplate = "Hello, %s! My name is %s. Sorry for spam.";
+    private final String greetingTemplate = "Hi, %s! My name is %s. We are in the one group with you '%s', so we've something to say each other, friend me!";
 
     private final long timeOut = 5000;
 

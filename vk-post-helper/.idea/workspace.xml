@@ -31,13 +31,13 @@
     <file path="$PROJECT_DIR$/../../subway-compass/metrogrub/src/commons-logging.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375110097363" ignored="false" />
     <file path="/TokenProvider.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375110905749" ignored="false" />
     <file path="/VKConnector.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375193934271" ignored="false" />
-    <file path="/VKConnectorImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375194315877" ignored="false" />
+    <file path="/VKConnectorImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375199133420" ignored="false" />
     <file path="/AntigateCaptchaParser.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375113594256" ignored="false" />
     <file path="/WallPoster.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375114123504" ignored="false" />
     <file path="/FriendsInviteBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375116132213" ignored="false" />
     <file path="/GroupWallPostVKTokenProvider.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375116509548" ignored="false" />
-    <file path="/FriendInviteBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375117753905" ignored="false" />
-    <file path="/GroupWallPostBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375194505621" ignored="false" />
+    <file path="/FriendInviteBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375198791317" ignored="false" />
+    <file path="/GroupWallPostBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375199027070" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerCoupon.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375185465923" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/merchant-ws-api/src/main/autogen/ru/iqcard/merchant/ws/generated/Card.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375185465923" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375192350320" ignored="false" />
@@ -115,33 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GroupWallPostBot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/GroupWallPostBot.java">
+      <file leaf-file-name="FriendInviteBot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="27" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3090#3101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VKConnector.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.54448396">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VKConnectorImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="230" column="48" selection-start="10708" selection-end="10708" vertical-scroll-proportion="0.0">
+            <state line="25" column="56" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,6 +130,44 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/GroupWallPostTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="19" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendInviteTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/FriendInviteTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="63" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupWallPostBot.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/GroupWallPostBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="47" selection-start="738" selection-end="738" vertical-scroll-proportion="0.2253012">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VKConnectorImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="88" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="16" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,12 +193,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/VKBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKTokenProviderImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java" />
         <option value="$PROJECT_DIR$/src/main/resources/content/group-wall-post.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnector.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/GroupWallPostBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java" />
       </list>
     </option>
   </component>
@@ -254,6 +269,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -456,7 +472,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,7 +499,7 @@
       <recent name="C:\projects\alkor\VKOpenRobot\vk-post-helper\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.group-wall-post-bot">
+  <component name="RunManager" selected="Maven.friend-invite-bot">
     <configuration default="false" name="FriendInviteBot" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.alkor.vph.samples.FriendInviteBot" />
       <option name="VM_PARAMETERS" value="" />
@@ -737,11 +752,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FriendInviteBot" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FrienderBotTest.testFriendsInviteBot" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FrienderBotTest.testVacancyBootTest" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.friend-invite-bot" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.group-wall-post-bot" />
+      <item index="0" class="java.lang.String" itemvalue="Maven.friend-invite-bot" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.group-wall-post-bot" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FriendInviteBot" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FrienderBotTest.testFriendsInviteBot" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FrienderBotTest.testVacancyBootTest" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -777,16 +792,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16768666" sideWeight="0.6006904" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16768666" sideWeight="0.6708861" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32068545" sideWeight="0.6006904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2643819" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -860,30 +875,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/captcha/AntigateCaptchaParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/VKBotTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/commons-logging.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="72" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="72" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/VKBot.java">
@@ -909,26 +911,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/completed-tasks.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="16" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/FriendInviteTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="11" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.54448396">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/VKBotTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="257" selection-end="257" vertical-scroll-proportion="0.2218268">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -939,38 +946,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/FriendInviteTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="63" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="48" selection-start="10708" selection-end="10708" vertical-scroll-proportion="0.0">
+        <state line="98" column="88" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/completed-tasks.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="25" column="56" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/GroupWallPostBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3090#3101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.54448396">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="47" selection-start="738" selection-end="738" vertical-scroll-proportion="0.2253012">
+          <folding />
         </state>
       </provider>
     </entry>

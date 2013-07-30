@@ -25,9 +25,9 @@ import java.util.List;
  */
 public class GroupWallPostBot {
 
-    private final static String vkToken = "aac84d2ada6df8e122cdebfdf788ebd0f6ae8bb047395a3fd90c0891b9c8a12a0026707c131856f60fa29";
+    private final String vkToken = "YOUR-VK-TOKEN";
 
-    private final static String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
+    private final String antigateToken = "YOUR-ANTIGATE-TOKEN";
 
     private final static String groupQuery = "java";
 
