@@ -1,8 +1,8 @@
 package com.alkor.vph.vk;
 
 import com.alkor.vph.vk.entities.*;
-import com.sun.deploy.util.StringUtils;
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.HttpResponse;
@@ -224,52 +224,12 @@ public class VKConnectorImpl implements VKConnector {
         return wallPostResult;
     }
 
-    public String getMyWallUploadServer(String token) throws IOException {
-        String request = String.format(getWallUploadServerUrl, 1, token);
-        log.info(request);
-        HttpGet httpGet = new HttpGet(request);
-        HttpResponse response = client.execute(httpGet);
-        String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-
-        JsonNode responseJsonNode = objectMapper.readTree(responseBody);
-        log.info(responseBody);
-
-        return responseJsonNode.get("response").get("upload_url").asText();
-    }
-
-    public UploadedPhoto uploadPhoto(String serverUrl, byte[] photo) throws IOException {
-        HttpPost httppost = new HttpPost(serverUrl);
-        MultipartEntity mpEntity = new MultipartEntity();
-
-        ByteArrayBody byteArrayBody = new ByteArrayBody(photo, "image/jpeg");
-        mpEntity.addPart("photo", byteArrayBody);
-
-        httppost.setEntity(mpEntity);
-        HttpResponse response = client.execute(httppost);
-        String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
-
-        return objectMapper.readValue(responseBody, UploadedPhoto.class);
-    }
-
-    public String saveMyWallPhoto(UploadedPhoto uploadedPhoto, String token) throws IOException {
-        String request = saveWallPhotoUrl;
-        log.info(request);
-        HttpPost httpPost = new HttpPost(request);
-
-        List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
-        nameValuePairs.add(new BasicNameValuePair("access_token", token));
-        nameValuePairs.add(new BasicNameValuePair("photo", uploadedPhoto.getPhoto()));
-        nameValuePairs.add(new BasicNameValuePair("server", String.valueOf(uploadedPhoto.getServer())));
-        nameValuePairs.add(new BasicNameValuePair("hash", String.valueOf(uploadedPhoto.getHash())));
-        httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
-
-        HttpResponse response = client.execute(httpPost);
-        String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
-
-        JsonNode responseJsonTree = objectMapper.readTree(responseBody);
-        return responseJsonTree.get("response").get(0).get("id").asText();
+    @Override
+    public String uploadWallPhoto(String token, byte[] bytes) throws IOException, InterruptedException {
+        String myWallUploadServer = getMyWallUploadServer(token);
+        UploadedPhoto uploadedPhoto = uploadPhoto(myWallUploadServer, bytes);
+        //TODO: Thread.sleep(5000) may be needed
+        return saveMyWallPhoto(uploadedPhoto, token);
     }
 
     public AddFriendResult setStatus(String text, String token) throws IOException {
@@ -314,5 +274,54 @@ public class VKConnectorImpl implements VKConnector {
         }
         return addFriendResult;
     }
+
+    private String getMyWallUploadServer(String token) throws IOException {
+        String request = String.format(getWallUploadServerUrl, 1, token);
+        log.info(request);
+        HttpGet httpGet = new HttpGet(request);
+        HttpResponse response = client.execute(httpGet);
+        String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
+
+        JsonNode responseJsonNode = objectMapper.readTree(responseBody);
+        log.info(responseBody);
+
+        return responseJsonNode.get("response").get("upload_url").asText();
+    }
+
+    private UploadedPhoto uploadPhoto(String serverUrl, byte[] photo) throws IOException {
+        HttpPost httppost = new HttpPost(serverUrl);
+        MultipartEntity mpEntity = new MultipartEntity();
+
+        ByteArrayBody byteArrayBody = new ByteArrayBody(photo, "image/jpeg");
+        mpEntity.addPart("photo", byteArrayBody);
+
+        httppost.setEntity(mpEntity);
+        HttpResponse response = client.execute(httppost);
+        String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
+        log.info(responseBody);
+
+        return objectMapper.readValue(responseBody, UploadedPhoto.class);
+    }
+
+    private String saveMyWallPhoto(UploadedPhoto uploadedPhoto, String token) throws IOException {
+        String request = saveWallPhotoUrl;
+        log.info(request);
+        HttpPost httpPost = new HttpPost(request);
+
+        List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
+        nameValuePairs.add(new BasicNameValuePair("access_token", token));
+        nameValuePairs.add(new BasicNameValuePair("photo", uploadedPhoto.getPhoto()));
+        nameValuePairs.add(new BasicNameValuePair("server", String.valueOf(uploadedPhoto.getServer())));
+        nameValuePairs.add(new BasicNameValuePair("hash", String.valueOf(uploadedPhoto.getHash())));
+        httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
+
+        HttpResponse response = client.execute(httpPost);
+        String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
+        log.info(responseBody);
+
+        JsonNode responseJsonTree = objectMapper.readTree(responseBody);
+        return responseJsonTree.get("response").get(0).get("id").asText();
+    }
+
 
 }

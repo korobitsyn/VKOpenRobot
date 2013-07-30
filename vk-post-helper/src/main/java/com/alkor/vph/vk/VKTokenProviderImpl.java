@@ -25,7 +25,7 @@ public class VKTokenProviderImpl implements VKTokenProvider {
     }
 
     private VKTokenProviderImpl(List<String> tokens) {
-        tokens.addAll(tokens);
+        this.tokens.addAll(tokens);
     }
 
     @Override

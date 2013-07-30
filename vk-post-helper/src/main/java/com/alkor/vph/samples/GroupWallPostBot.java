@@ -13,7 +13,9 @@ import com.alkor.vph.vk.entities.Post;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -27,38 +29,52 @@ public class GroupWallPostBot {
 
     private final static String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
 
-    private final static String groupQuery = "GitHub";
+    private final static String groupQuery = "java";
 
-    private final static List<String> attachments = new ArrayList<String>();
-    {
-        attachments.add("photo-41942656_303510672");
-        attachments.add("photo-41942656_303510740");
-        attachments.add("photo-41942656_303510832");
-        attachments.add("photo-41942656_305383385");
-        attachments.add("https://play.google.com/store/apps/details?id=com.alkor.compass.world");
-    }
+    private List<String> photoFileNames = Arrays.asList("content/screen1.png", "content/screen2.png", "content/screen3.png", "content/screen4.png", "content/screen5.png", "content/screen6.png");
 
-    private final static String messageTextFileName = "subway-compass-ad.txt";
+    private String attachedLink = "https://play.google.com/store/apps/details?id=com.alkor.compass.world";
+
+    private final static String messageTextFileName = "content/group-wall-post.txt";
 
     private final static int groupsCount = 10;
 
     private final VKBot vkBot;
+
+    private VKConnector vkConnector;
+
+    private String savePhoto(String photoFileName, String token) throws IOException, InterruptedException {
+        InputStream fileInputStream = this.getClass().getClassLoader().getResourceAsStream(photoFileName);
+        byte[] bytes = null;
+        try {
+            bytes = IOUtils.toByteArray(fileInputStream);
+        } finally {
+            fileInputStream.close();
+        }
+        return vkConnector.uploadWallPhoto(token, bytes);
+    }
 
     public static void main(String[] params) throws IOException, InterruptedException {
         GroupWallPostBot groupWallPostBot = new GroupWallPostBot();
         groupWallPostBot.run();
     }
 
-    public GroupWallPostBot() throws IOException {
-        VKConnector vkConnector = VKConnectorImpl.createInstance();
+    public GroupWallPostBot() throws IOException, InterruptedException {
+        vkConnector = VKConnectorImpl.createInstance();
         VKTokenProvider vkTokenProvider = VKTokenProviderImpl.createInstance(vkToken);
 
-        FileInputStream fileInputStream = new FileInputStream(messageTextFileName);
+        InputStream fileInputStream = this.getClass().getClassLoader().getResourceAsStream(messageTextFileName);
         String ad = null;
         try {
             ad = IOUtils.toString(fileInputStream, "UTF-8");
         } finally {
             fileInputStream.close();
+        }
+
+        List<String> attachments = new ArrayList<>();
+        attachments.add(attachedLink);
+        for (String photoFileName : photoFileNames) {
+            attachments.add(savePhoto(photoFileName, vkToken));
         }
         Post post = new Post();
         post.setMessage(ad);

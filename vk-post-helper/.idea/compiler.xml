@@ -25,6 +25,9 @@
         <module name="vk-post-helper" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vk-post-helper" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
