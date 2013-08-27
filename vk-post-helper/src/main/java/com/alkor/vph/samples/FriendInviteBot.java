@@ -21,19 +21,21 @@ import java.util.*;
  */
 public class FriendInviteBot {
 
-    private final String vkToken = "YOUR-VK-TOKEN";
+    private final String vkToken = "d15e7313f15314650e9d0111669e198d2c5ad43eee4a3b667f80e4f6846ee9303b42a6c0c804538dbff8c";
 
-    private final String antigateToken = "YOUR-ANTIGATE-TOKEN";
+    private final String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
 
-    private final String groupQuery = "java";
+    private final String groupQuery = "Android";
 
-    private final String greetingTemplate = "Hi, %s! My name is %s. We are in the one group with you '%s', so we've something to say each other, friend me!";
+//    private final String greetingTemplate = "Hi, %s! My name is %s. We are in the one group with you '%s', so we've something to say each other, friend me!";
+
+    private final String greetingTemplate = "Привет! Если у тебя есть смартфон на Android, вступай в группу http://vk.com/club41942656 ;)";
 
     private final long timeOut = 5000;
 
-    private final int groupsCount = 1;
+    private final int groupsCount = 10;
 
-    private final int usersCount = 100;
+    private final int usersCount = 1000;
 
     private final VKBot vkBot;
 
@@ -62,7 +64,12 @@ public class FriendInviteBot {
         }
         List<User> users = vkConnector.getUsers(userIds, vkTokenProvider.getToken());
         for (User user : users) {
-            tasks.add(new FriendInviteTask(vkConnector, user, String.format(greetingTemplate, user.getFirstName(), me.getFirstName(), userGroups.get(user.getId()).getName())));
+            Group group = userGroups.get(user.getId());
+            if (group != null) {
+                tasks.add(new FriendInviteTask(vkConnector, user, String.format(greetingTemplate, user.getFirstName(), me.getFirstName(), group.getName())));
+            } else {
+                System.out.println(group);
+            }
         }
         vkBot = VKBot.createInstance(tasks, vkTokenProvider, AntigateCaptchaParser.createInstance(antigateToken));
     }

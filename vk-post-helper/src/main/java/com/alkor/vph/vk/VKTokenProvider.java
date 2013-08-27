@@ -9,6 +9,6 @@ public interface VKTokenProvider {
 
     String getToken();
 
-    void switchToken();
+    boolean switchToken();
 
 }

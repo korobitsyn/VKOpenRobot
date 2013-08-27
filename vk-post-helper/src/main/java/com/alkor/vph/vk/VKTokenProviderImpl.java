@@ -34,10 +34,11 @@ public class VKTokenProviderImpl implements VKTokenProvider {
     }
 
     @Override
-    public void switchToken() {
+    public boolean switchToken() {
         index++;
         if (index >= tokens.size()) {
-            index = 0;
+            return false;
         }
+        return true;
     }
 }

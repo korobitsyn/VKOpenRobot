@@ -65,8 +65,10 @@ public class VKBot implements Runnable {
                 if (wallPostResult.isSuccess()) {
                     writeGroup(VKBotTask.getTaskId());
                 } else {
-                    if (wallPostResult.getErrorCode() == 5) {
-                        changeToken();
+                    if (wallPostResult.getErrorCode() == 5 || wallPostResult.getErrorCode() == 1) {
+                        if (!changeToken()) {
+                            break;
+                        }
                         continue;
                     }
                     if (wallPostResult.getErrorCode() == 14) {
@@ -81,7 +83,9 @@ public class VKBot implements Runnable {
                         if ("Access to adding post denied: access to the wall is closed".equals(wallPostResult.getMessage())) {
                             writeGroup(VKBotTask.getTaskId());
                         } else if ("Access to adding post denied: too many messages sent".equals(wallPostResult.getMessage())) {
-                            changeToken();
+                            if (!changeToken()) {
+                                break;
+                            };
                         }
                     }
                 }
@@ -103,10 +107,15 @@ public class VKBot implements Runnable {
         log.info(String.format("Start token is %s", vkTokenProvider.getToken()));
     }
 
-    private void changeToken() {
-        currentTask--;
-        vkTokenProvider.switchToken();
-        log.info(String.format("Token has been changed to %s", vkTokenProvider.getToken()));
+    private boolean changeToken() {
+        boolean success = vkTokenProvider.switchToken();
+        if (success) {
+            currentTask--;
+            log.info(String.format("Token has been changed to %s", vkTokenProvider.getToken()));
+        } else {
+            log.info(String.format("Token has not been changed"));
+        }
+        return success;
     }
 
     private void writeGroup(String gid) throws IOException {
