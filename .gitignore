@@ -4,3 +4,7 @@
 *.jar
 *.war
 *.ear
+
+vk-post-helper/target
+vk-post-helper/*.txt
+vk-post-helper/*.log
