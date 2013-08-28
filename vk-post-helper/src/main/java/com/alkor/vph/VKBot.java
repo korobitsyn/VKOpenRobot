@@ -33,8 +33,8 @@ public class VKBot implements Runnable {
     private int currentTask = 0;
 
 
-    public static VKBot createInstance(List<VKBotTask> tasks, VKTokenProvider vkTokenProvider, CaptchaParser captchaParser) {
-        return new VKBot(tasks, vkTokenProvider, captchaParser, "completed-tasks.txt", 5000);
+    public static VKBot createInstance(List<VKBotTask> tasks, VKTokenProvider vkTokenProvider, String wallPostFile, CaptchaParser captchaParser) {
+        return new VKBot(tasks, vkTokenProvider, captchaParser, wallPostFile, 5000);
     }
 
     public static VKBot createInstance(List<VKBotTask> tasks, VKTokenProvider vkTokenProvider, CaptchaParser captchaParser, String wallPostFile, long sleepTime) {

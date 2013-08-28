@@ -25,11 +25,11 @@ import java.util.List;
  */
 public class GroupWallPostBot {
 
-    private final String vkToken = "YOUR-VK-TOKEN";
+    private final String vkToken = "d15e7313f15314650e9d0111669e198d2c5ad43eee4a3b667f80e4f6846ee9303b42a6c0c804538dbff8c";
 
-    private final String antigateToken = "YOUR-ANTIGATE-TOKEN";
+    private final String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
 
-    private final static String groupQuery = "java";
+    private final static String groupQuery = "метро";
 
     private List<String> photoFileNames = Arrays.asList("content/screen1.png", "content/screen2.png", "content/screen3.png", "content/screen4.png", "content/screen5.png", "content/screen6.png");
 
@@ -37,7 +37,7 @@ public class GroupWallPostBot {
 
     private final static String messageTextFileName = "content/group-wall-post.txt";
 
-    private final static int groupsCount = 10;
+    private final static int groupsCount = 1000;
 
     private final VKBot vkBot;
 
@@ -85,7 +85,7 @@ public class GroupWallPostBot {
         for (Group group : groups) {
             tasks.add(new GroupWallPostTask(vkConnector, group, post));
         }
-        vkBot = VKBot.createInstance(tasks, vkTokenProvider, AntigateCaptchaParser.createInstance(antigateToken));
+        vkBot = VKBot.createInstance(tasks, vkTokenProvider, "group-wall-posts.txt", AntigateCaptchaParser.createInstance(antigateToken));
     }
 
     public void run() {

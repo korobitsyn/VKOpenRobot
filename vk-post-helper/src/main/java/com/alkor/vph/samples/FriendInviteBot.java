@@ -71,7 +71,7 @@ public class FriendInviteBot {
                 System.out.println(group);
             }
         }
-        vkBot = VKBot.createInstance(tasks, vkTokenProvider, AntigateCaptchaParser.createInstance(antigateToken));
+        vkBot = VKBot.createInstance(tasks, vkTokenProvider, "completed-tasks.txt", AntigateCaptchaParser.createInstance(antigateToken));
     }
 
     public void run() {
