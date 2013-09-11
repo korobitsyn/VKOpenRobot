@@ -25,11 +25,13 @@ public class FriendInviteBot {
 
     private final String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
 
-    private final String groupQuery = "Android";
+    private String groupQuery = "Android";
+
+    private final String greetingTemplate = "Привет, %s! Меня зовут %s. Мы с тобой в одной групе '%s', так что нам будет о чем пообщаться, добавляй в друзья!";
 
 //    private final String greetingTemplate = "Hi, %s! My name is %s. We are in the one group with you '%s', so we've something to say each other, friend me!";
 
-    private final String greetingTemplate = "Привет! Если у тебя есть смартфон на Android, вступай в группу http://vk.com/club41942656 ;)";
+//    private final String greetingTemplate = "Привет! Если у тебя есть смартфон на Android, вступай в группу http://vk.com/club41942656 ;)";
 
     private final long timeOut = 5000;
 
@@ -37,14 +39,18 @@ public class FriendInviteBot {
 
     private final int usersCount = 1000;
 
-    private final VKBot vkBot;
+    private VKBot vkBot;
 
     public static void main(String[] params) throws IOException, InterruptedException {
         FriendInviteBot friendInviteBot = new FriendInviteBot();
+        if (params.length > 0) {
+            friendInviteBot.setGroupQuery(params[0]);
+        }
+        friendInviteBot.init();
         friendInviteBot.run();
     }
 
-    public FriendInviteBot() throws IOException, InterruptedException {
+    public void init() throws IOException, InterruptedException {
         VKConnector vkConnector = VKConnectorImpl.createInstance();
         VKTokenProvider vkTokenProvider = VKTokenProviderImpl.createInstance(vkToken);
 
@@ -72,6 +78,14 @@ public class FriendInviteBot {
             }
         }
         vkBot = VKBot.createInstance(tasks, vkTokenProvider, "completed-tasks.txt", AntigateCaptchaParser.createInstance(antigateToken));
+    }
+
+    public String getGroupQuery() {
+        return groupQuery;
+    }
+
+    public void setGroupQuery(String groupQuery) {
+        this.groupQuery = groupQuery;
     }
 
     public void run() {

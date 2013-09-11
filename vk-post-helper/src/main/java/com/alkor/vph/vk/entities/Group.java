@@ -27,6 +27,8 @@ public class Group {
     private String photoMedium;
     @JsonProperty("photo_big")
     private String photoBig;
+    @JsonProperty("deactivated")
+    private String deactivated;
 
     public long getGid() {
         return gid;
@@ -116,6 +118,14 @@ public class Group {
         this.photoBig = photoBig;
     }
 
+    public String getDeactivated() {
+        return deactivated;
+    }
+
+    public void setDeactivated(String deactivated) {
+        this.deactivated = deactivated;
+    }
+
     @Override
     public String toString() {
         return "Group{" +
@@ -124,11 +134,13 @@ public class Group {
                 ", screenName='" + screenName + '\'' +
                 ", closed=" + closed +
                 ", admin=" + admin +
+                ", admin_level=" + admin_level +
                 ", member=" + member +
                 ", type='" + type + '\'' +
                 ", photo='" + photo + '\'' +
                 ", photoMedium='" + photoMedium + '\'' +
                 ", photoBig='" + photoBig + '\'' +
+                ", deactivated='" + deactivated + '\'' +
                 '}';
     }
 }

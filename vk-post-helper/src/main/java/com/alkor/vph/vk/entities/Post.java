@@ -13,6 +13,7 @@ public class Post {
     private List<String> attachments;
     private Double latitude;
     private Double longitude;
+    private boolean fromGroup = false;
 
     public String getMessage() {
         return message;
@@ -46,6 +47,14 @@ public class Post {
         this.longitude = longitude;
     }
 
+    public boolean isFromGroup() {
+        return fromGroup;
+    }
+
+    public void setFromGroup(boolean fromGroup) {
+        this.fromGroup = fromGroup;
+    }
+
     @Override
     public String toString() {
         return "Post{" +
@@ -53,6 +62,7 @@ public class Post {
                 ", attachments=" + attachments +
                 ", latitude=" + latitude +
                 ", longitude=" + longitude +
+                ", fromGroup=" + fromGroup +
                 '}';
     }
 }

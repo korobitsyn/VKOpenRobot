@@ -31,6 +31,9 @@ import java.util.List;
  * Time: 19:20
  */
 public class VKConnectorImpl implements VKConnector {
+    //getting token
+    //https://oauth.vk.com/authorize?client_id=3858624&scope=groups,wall,photos,friends,status,offline&redirect_uri=http://oauth.vk.com/blank.html&display=page&response_type=token
+
 
     private final Log log = LogFactory.getLog(VKConnector.class);
 
@@ -179,6 +182,9 @@ public class VKConnectorImpl implements VKConnector {
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
         if (gid != null) {
             nameValuePairs.add(new BasicNameValuePair("owner_id", String.valueOf(gid)));
+        }
+        if (post.isFromGroup()) {
+            nameValuePairs.add(new BasicNameValuePair("from_group", "1"));
         }
         nameValuePairs.add(new BasicNameValuePair("message", post.getMessage()));
         if (post.getAttachments() != null) {

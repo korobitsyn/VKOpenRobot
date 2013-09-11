@@ -36,6 +36,11 @@ public class GroupWallPostTask implements VKBotTask {
         }
 
         WallPostResult wallPostResult = vkConnector.wallPost(-group.getGid(), post, captcha, token);
+        if (wallPostResult.getPostId() == -13) {
+            wallPostResult.setSuccess(false);
+            wallPostResult.setErrorCode(5);
+            wallPostResult.setMessage("PostId = -13");
+        }
         return wallPostResult.getMethodResult();
     }
 

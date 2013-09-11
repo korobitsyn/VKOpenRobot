@@ -29,9 +29,9 @@ public class GroupWallPostBot {
 
     private final String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
 
-    private final static String groupQuery = "метро";
+    private String groupQuery = "Android";
 
-    private List<String> photoFileNames = Arrays.asList("content/screen1.png", "content/screen2.png", "content/screen3.png", "content/screen4.png", "content/screen5.png", "content/screen6.png");
+    private List<String> photoFileNames = Arrays.asList("content/screen1.png", "content/screen2.png", "content/screen3.png");
 
     private String attachedLink = "https://play.google.com/store/apps/details?id=com.alkor.compass.world";
 
@@ -39,7 +39,7 @@ public class GroupWallPostBot {
 
     private final static int groupsCount = 1000;
 
-    private final VKBot vkBot;
+    private VKBot vkBot;
 
     private VKConnector vkConnector;
 
@@ -56,10 +56,14 @@ public class GroupWallPostBot {
 
     public static void main(String[] params) throws IOException, InterruptedException {
         GroupWallPostBot groupWallPostBot = new GroupWallPostBot();
+        if (params.length > 0) {
+            groupWallPostBot.setGroupQuery(params[0]);
+        }
+        groupWallPostBot.init();
         groupWallPostBot.run();
     }
 
-    public GroupWallPostBot() throws IOException, InterruptedException {
+    public void init() throws IOException, InterruptedException {
         vkConnector = VKConnectorImpl.createInstance();
         VKTokenProvider vkTokenProvider = VKTokenProviderImpl.createInstance(vkToken);
 
@@ -86,6 +90,14 @@ public class GroupWallPostBot {
             tasks.add(new GroupWallPostTask(vkConnector, group, post));
         }
         vkBot = VKBot.createInstance(tasks, vkTokenProvider, "group-wall-posts.txt", AntigateCaptchaParser.createInstance(antigateToken));
+    }
+
+    public String getGroupQuery() {
+        return groupQuery;
+    }
+
+    public void setGroupQuery(String groupQuery) {
+        this.groupQuery = groupQuery;
     }
 
     public void run() {
