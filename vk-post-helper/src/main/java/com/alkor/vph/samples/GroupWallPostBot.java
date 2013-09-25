@@ -29,7 +29,7 @@ public class GroupWallPostBot {
 
     private final String antigateToken = "e36ae5781fbcd185906c0325d14e5156";
 
-    private String groupQuery = "Android";
+    private String groupQuery = "Метро";
 
     private List<String> photoFileNames = Arrays.asList("content/screen1.png", "content/screen2.png", "content/screen3.png");
 

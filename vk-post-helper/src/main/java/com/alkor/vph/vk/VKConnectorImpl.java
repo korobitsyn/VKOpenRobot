@@ -14,6 +14,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.mime.MultipartEntity;
 import org.apache.http.entity.mime.content.ByteArrayBody;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager;
 import org.apache.http.message.BasicNameValuePair;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.ObjectMapper;
@@ -24,6 +25,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import org.apache.http.impl.conn.PoolingClientConnectionManager;
 
 /**
  * Author: akorobitsyn
@@ -33,8 +35,6 @@ import java.util.List;
 public class VKConnectorImpl implements VKConnector {
     //getting token
     //https://oauth.vk.com/authorize?client_id=3858624&scope=groups,wall,photos,friends,status,offline&redirect_uri=http://oauth.vk.com/blank.html&display=page&response_type=token
-
-
     private final Log log = LogFactory.getLog(VKConnector.class);
 
     private final static String groupsSearchUrl = "https://api.vk.com/method/groups.search?q=%s&offset=%d&count=%d&access_token=%s";
@@ -44,7 +44,10 @@ public class VKConnectorImpl implements VKConnector {
     private final static String joinGroupUrl = "https://api.vk.com/method/groups.join?group_id=%d&access_token=%s";
     private final static String friendsAddUrl = "https://api.vk.com/method/friends.add";
     private final static String wallPostWithAttachmentsUrl = "https://api.vk.com/method/wall.post";
+
+//    private final static String getWallUploadServerUrl = "https://api.vk.com/method/wall.getPhotoUploadServer?access_token=%s";
     private final static String getWallUploadServerUrl = "https://api.vk.com/method/photos.getWallUploadServer?save_big=%d&access_token=%s";
+//    private final static String saveWallPhotoUrl = "https://api.vk.com/method/wall.savePost";
     private final static String saveWallPhotoUrl = "https://api.vk.com/method/photos.saveWallPhoto";
 
     private final static String setStatusUrl = "https://api.vk.com/method/status.set";
@@ -283,6 +286,7 @@ public class VKConnectorImpl implements VKConnector {
 
     private String getMyWallUploadServer(String token) throws IOException {
         String request = String.format(getWallUploadServerUrl, 1, token);
+//        String request = String.format(getWallUploadServerUrl, token);
         log.info(request);
         HttpGet httpGet = new HttpGet(request);
         HttpResponse response = client.execute(httpGet);
@@ -298,7 +302,7 @@ public class VKConnectorImpl implements VKConnector {
         HttpPost httppost = new HttpPost(serverUrl);
         MultipartEntity mpEntity = new MultipartEntity();
 
-        ByteArrayBody byteArrayBody = new ByteArrayBody(photo, "image/jpeg");
+        ByteArrayBody byteArrayBody = new ByteArrayBody(photo, "photo.jpg");
         mpEntity.addPart("photo", byteArrayBody);
 
         httppost.setEntity(mpEntity);
