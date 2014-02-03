@@ -4,12 +4,12 @@
     <list default="true" id="4a02fc8b-374b-43d2-9694-0c3513349483" name="Default" comment="" />
     <ignored path="vk-post-helper.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379077742392" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381484593807" ignored="false" />
     <file path="/AddFriendResult.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378219090037" ignored="false" />
-    <file path="/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379428316731" ignored="false" />
-    <file path="/Dummy.txt" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379080672720" ignored="false" />
+    <file path="/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382618719679" ignored="false" />
+    <file path="/Dummy.txt" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382533343479" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-partner-backoffice-war/src/main/resources/application-context.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375109083629" ignored="false" />
-    <file path="/fragment.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379515088027" ignored="false" />
+    <file path="/fragment.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1385030913211" ignored="false" />
     <file path="/AntiGate.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375104212637" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/com/gpsol/iqcard/service/partner/PartnerFeeServiceImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375104945211" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/ws/LoanApplicationCreator.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375107662253" ignored="false" />
@@ -31,14 +31,14 @@
     <file path="$PROJECT_DIR$/../../subway-compass/metrogrub/src/commons-logging.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375110097363" ignored="false" />
     <file path="/TokenProvider.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375110905749" ignored="false" />
     <file path="/VKConnector.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375193934271" ignored="false" />
-    <file path="/VKConnectorImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380107379751" ignored="false" />
+    <file path="/VKConnectorImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380629181358" ignored="false" />
     <file path="/AntigateCaptchaParser.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375113594256" ignored="false" />
     <file path="/WallPoster.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375114123504" ignored="false" />
     <file path="/FriendsInviteBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375116132213" ignored="false" />
     <file path="/GroupWallPostVKTokenProvider.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375116509548" ignored="false" />
     <file path="/FriendInviteBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378388592236" ignored="false" />
     <file path="/GroupWallPostBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378912232627" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerCoupon.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375185465923" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerCoupon.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381482756835" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/merchant-ws-api/src/main/autogen/ru/iqcard/merchant/ws/generated/Card.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375185465923" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375192350320" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerGoods.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375185465923" ignored="false" />
@@ -50,7 +50,7 @@
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerCard.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375185465923" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/java/com/gpsol/iqcard/partner/core/model/QPartnerCardActivation.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375185465923" ignored="false" />
     <file path="/VKTokenProviderImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377610245558" ignored="false" />
-    <file path="/a.dummy" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378735524213" ignored="false" />
+    <file path="/a.dummy" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705550545" ignored="false" />
     <file path="/group-wall-post.txt" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377678177804" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/partner/partner-server-ws/src/test/java/ru/iqcard/partner/PartnerApiTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375191028011" ignored="false" />
     <file path="/PartnerApiTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1375191008142" ignored="false" />
@@ -68,8 +68,8 @@
     <file path="$PROJECT_DIR$/../../../iqcard-stable-admin/iqcard-core/src/main/autogen/com/gpsol/iqcard/model/QCardDesignEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377609360914" ignored="false" />
     <file path="/VKTokenProvider.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377610222299" ignored="false" />
     <file path="/VKBot.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377679308607" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/PrivateBankForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380109674681" ignored="false" />
-    <file path="/PrivateBankForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380109674153" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/PrivateBankForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381422567938" ignored="false" />
+    <file path="/PrivateBankForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381422567938" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/cabinet/transfer/transferContent.jsp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378733183663" ignored="false" />
     <file path="/transferContent.jsp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378391264932" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/test/java/com/gpsol/iqcard/privatebank/PrivateBankTestConfig.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377681652662" ignored="false" />
@@ -79,13 +79,13 @@
     <file path="/GroupWallPostTask.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377692793886" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/ActivateCardForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379077742392" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/cards/CardsController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911220317" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/cards/CardInfoController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911176490" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/cards/CardInfoController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380805367926" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/tomcat/conf/context.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377776715487" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/ExpressActivateCardForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911176490" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/cards/CardListController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377776715487" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/CommonCardsForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377776715487" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/CreateCardService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377776715487" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911176490" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381734156104" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/cards/CardCreditInfoController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377776715487" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/CardForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377776715487" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/common/orders.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1377782742975" ignored="false" />
@@ -105,30 +105,30 @@
     <file path="$PROJECT_DIR$/../../../iqcard-stable-admin/admin2/src/main/java/ru/iqcard/admin2/faces/OrdersPage.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378291930418" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/cabinet/nobonus_case.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378377146403" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/order/OrderController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378385761035" ignored="false" />
-    <file path="/OrderController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378384691453" ignored="false" />
+    <file path="/OrderController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382708711426" ignored="false" />
     <file path="/iqcard-config.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379061185639" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/resources/iqcard-config.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380036034740" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/resources/iqcard-config.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382529288608" ignored="false" />
     <file path="$PROJECT_DIR$/../../hh-test/src/Task1.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378483097618" ignored="false" />
     <file path="/Task1.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378483096194" ignored="false" />
     <file path="$PROJECT_DIR$/../../hh-test/src/Task2.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378727168117" ignored="false" />
     <file path="/Task2.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378727077034" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/cabinet/moneyTransfer.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378733323974" ignored="false" />
     <file path="/moneyTransfer.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378733323974" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/cabinet/transfers/privateBank.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379502915794" ignored="false" />
-    <file path="/*.regexp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379503470421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/cabinet/transfers/privateBank.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382712290542" ignored="false" />
+    <file path="/*.regexp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382703719415" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/moneytransfer/MoneyTransferController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378908774585" ignored="false" />
     <file path="/MoneyTransferController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378904575269" ignored="false" />
-    <file path="/privateBank.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378987367529" ignored="false" />
+    <file path="/privateBank.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382712136380" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/card/PrivateBankService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378910279044" ignored="false" />
     <file path="/PrivateBankService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378910272903" ignored="false" />
     <file path="/CardsController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378908842146" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/WEB-INF/tiles.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378909775962" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/atm-service/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379435931101" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/atm-service/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382519325984" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/com/gpsol/iqcard/service/card/CardService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911176490" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/com/gpsol/iqcard/service/partner/PartnerService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911176490" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/user/cabinet/CardTO.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911220317" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/cabinet/action_activate.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378911220317" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379425224462" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
     <file path="/Group.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1378913206507" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/admin2/src/main/java/ru/iqcard/admin2/reports/OrdersReportBuilder.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379077250826" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/admin2/src/main/java/ru/iqcard/admin2/task/GenerateOrdersReportSource.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379077325958" ignored="false" />
@@ -166,11 +166,11 @@
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/samsung/wallet/entities/TicketPartnerEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504453695" ignored="false" />
     <file path="/TicketPartnerEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379431927997" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/samsung/wallet/services/SamsungWalletService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504503461" ignored="false" />
-    <file path="/SamsungWalletService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379597993101" ignored="false" />
+    <file path="/SamsungWalletService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380190113516" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/samsung/wallet/services/SamsungWalletException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504453695" ignored="false" />
     <file path="/SamsungWalletException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379507215768" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/samsung/wallet/services/SamsungWalletServiceImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504503461" ignored="false" />
-    <file path="/SamsungWalletServiceImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379597762075" ignored="false" />
+    <file path="/SamsungWalletServiceImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380199988718" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/partner/client_card.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504331435" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/test/resources/test-context.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504642580" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/wallet/entities/TicketPartner.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504443832" ignored="false" />
@@ -198,23 +198,169 @@
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/TicketPartner.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504503461" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/TicketDate.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379594124092" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/TicketViewImage.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380028185074" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletServiceImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379598042298" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379597996274" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379507227233" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletServiceImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381497617731" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380190376424" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380192128549" ignored="false" />
     <file path="/test-context.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379504642580" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/test/resources/samsung-wallet.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380028671564" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/test/java/com/gpsol/iqcard/samsung/wallet/test/SamsungWalletServiceTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380030318294" ignored="false" />
-    <file path="/SamsungWalletServiceTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380030228813" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/ErrorResponse.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379588139503" ignored="false" />
-    <file path="/ErrorResponse.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379588113684" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/test/java/com/gpsol/iqcard/samsung/wallet/test/SamsungWalletServiceTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380200313038" ignored="false" />
+    <file path="/SamsungWalletServiceTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380199163536" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/ErrorResponse.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380191854155" ignored="false" />
+    <file path="/ErrorResponse.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380191853638" ignored="false" />
     <file path="/samsung-wallet.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379588064218" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/test/resources/log4j.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379512564508" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/test/resources/commons-logging.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379512019024" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsungwallet.log" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380030326323" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsungwallet.log" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380200302753" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/IssueTicketResponse.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379595586233" ignored="false" />
     <file path="/IssueTicketResponse.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379595554347" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/TicketIdResponse.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1379597996274" ignored="false" />
     <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380021853935" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/CardInfo.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380189419130" ignored="false" />
+    <file path="/CardInfo.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380189820185" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/CardDetails.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381232323279" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletCardPublisher.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380886482117" ignored="false" />
+    <file path="/SamsungWalletCardPublisher.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380193576101" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/ResponseResult.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380191834264" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/entities/ErrorResponseResult.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380191859487" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletCardPublisherImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381232584227" ignored="false" />
+    <file path="/SamsungWalletCardPublisherImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381232550845" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/UnknownTicketException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380196908621" ignored="false" />
+    <file path="/UnknownTicketException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380196870356" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletTicketException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380198045698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/main/java/com/gpsol/iqcard/samsung/wallet/services/SamsungWalletTicketNotFoundException.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380198053845" ignored="false" />
+    <file path="/CardDetails.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381232206376" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/resources/js/widgets/SamsungWalletWidget.js" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382514333267" ignored="false" />
+    <file path="/SamsungWalletWidget.js" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382429122237" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/common/cards/cardsContent.jsp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382369392960" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/cards/SamsungWalletController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380805047876" ignored="false" />
+    <file path="/SamsungWalletController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382535763395" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/pages/common/cards/cardsHead.jsp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381494404752" ignored="false" />
+    <file path="/cardsContent.jsp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380809761851" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/webapp/resources/js/CardsWidgetList.js" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381481316242" ignored="false" />
+    <file path="/CardsWidgetList.js" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380727075349" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-web-common/src/main/webapp/js/widgets/AbstractWidget.js" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1380810278613" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/com/gpsol/iqcard/operations/callback/TransactionProcessor.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381329231467" ignored="false" />
+    <file path="/TransactionProcessor.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381328714859" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/autogen/com/gpsol/iqcard/model/QMccCategoryCode.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381329436904" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/autogen/com/gpsol/iqcard/model/QTransactionCategoryEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381329436904" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/autogen/com/gpsol/iqcard/model/QTransactionMetaCategoryEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381329436904" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../sprint27/iqcard-stable/iqcard-war/src/main/webapp/pages/common/cards/cardsContent.jsp" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381152946917" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../sprint27/iqcard-stable/iqcard-war/src/main/webapp/pages/cabinet/moneyTransfer.xhtml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381153020977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/inplat-gateway/src/main/resources/logback.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381322820792" ignored="false" />
+    <file path="/logback.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382625089080" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/resources/logback.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381331826321" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/com/gpsol/iqcard/model/TransactionEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381329393724" ignored="false" />
+    <file path="/ITBankEventHandlerImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381330301581" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/java/ru/iqcard/itbank/in/ws/ITBankEventHandlerImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381413695738" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/java/ru/iqcard/itbank/in/ws/InITBCardSoapImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381497617731" ignored="false" />
+    <file path="/InITBCardSoapImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382430531103" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/java/ru/iqcard/itbank/in/ws/LoggingHelper.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381333290908" ignored="false" />
+    <file path="/LoggingHelper.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381333256597" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/DOCCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResAISSUECARDS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ReqAUTHORIZATIONDOC.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/CREDITCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ReqACHANGEPERSONALDATA.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381333414440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ReqCREDITCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381333414440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ReqAISSUECARDS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/AUTHORIZATIONDOC.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ReqCARDCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381333414440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/CARDCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/AISSUECARDS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ACHANGEPERSONALDATA.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/target/classes/META-INF/applicationContext.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381331436347" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ReqDOCCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381333414440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResACHANGEPERSONALDATA.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResCREDITCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResDOCCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResCARDCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResAUTHORIZATIONDOC.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381401021147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ReqCARD.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381333414440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/autogen/com/gpsol/iqcard/model/QOrderCardInfoEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381482648297" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank/src/main/java/com/gpsol/iqcard/itbank/ws/ITBankEventHandlerImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381497617731" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/logging/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381510060802" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/gran-integration/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381504108051" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/logging/src/main/java/ch/qos/logback/core/net/SyslogLogstashAppender.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381736531494" ignored="false" />
+    <file path="/SyslogLogstashAppender.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1381736489485" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/.idea/workspace.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1385030907198" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/VKBotTask.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/Captcha.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/Group.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/AddFriendResult.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/UploadedPhoto.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/WallPostResult.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/User.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/Post.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382111093245" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-outgoing/itbank-supplier.log" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382625752409" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-outgoing/src/main/java/ru/iqcard/itbank/out/ws/log/client/WSClientSendToLoggingHandler.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382112651223" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/samsung-wallet/src/test/java/ru/iqcard/samsung/wallet/test/SamsungWalletServiceTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382359056420" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-partner-backoffice-war/src/main/java/ru/iqcard/partner/controllers/clients/ClientsBonusController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382362876016" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/annotations/ru/iqcard/partner/core/model/PartnerClientBonusBalance_.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382362886768" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/target/generated-sources/annotations/ru/iqcard/model/credit/CreditLimitEntity_.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382362886768" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-partner/target/generated-sources/annotations/ru/iqcard/partner/core/model/PartnerClientBonusTransaction_.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382362886768" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-war/src/main/webapp/resources/js/widgets/SamsungWalletWidget.js" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382533830161" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/java/ru/iqcard/itbank/in/ws/InITBCardSoapImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382430553778" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResACHANGEPERSONALDATA.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062192" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResAUTHORIZATIONDOC.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062192" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/AUTHORIZATIONDOC.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062192" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/AISSUECARDS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062192" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResCREDITCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/DOCCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/CREDITCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResAISSUECARDS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResDOCCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ACHANGEPERSONALDATA.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/ResCARDCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-incoming/src/main/autogen/ru/iqcard/itbank/entity/events/CARDCHANGESTATUS.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382431062193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/resources/META-INF/scheduler.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526303807" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/order/UnitellerOrderVerificationJob.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382702319727" ignored="false" />
+    <file path="/UnitellerOrderVerificationJob.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382702316503" ignored="false" />
+    <file path="/scheduler.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382520514904" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/resources/META-INF/applicationContext.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382525893445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/card-order/src/main/resources/spring/scheduler.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382517037758" ignored="false" />
+    <file path="/applicationContext.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382518640380" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/atm-service/src/main/resources/spring/web-application-context.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/atm-service/src/main/java/ru/iqcard/atm/schedule/PaymentPointsSyncJob.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382519720261" ignored="false" />
+    <file path="/PaymentPointsSyncJob.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382519720261" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/ru/iqcard/service/card/CardService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382521836137" ignored="false" />
+    <file path="/CardService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382521831183" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/controllers/order/OrderController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382708770019" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/resources/external-services.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526290317" ignored="false" />
+    <file path="/external-services.properties" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526287807" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/autogen/ru/iqcard/model/QOrderEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705500850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/ru/iqcard/mail/AdminMailNotifier.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/service/FIASRPCClient.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/common/order/OrderCardForm.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/ws/LoanServiceImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/service/CardOrderService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/ru/iqcard/email/EmailManager.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/order/OrderCardController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/card/CreateCardService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/order/UnitellerService.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382696575344" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/controllers/order/BankTransferDetailsGenerator.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/java/ru/iqcard/sms/SMSManager.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382526672604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/atm-service/src/main/resources/spring/scheduler.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382528747966" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/resources/META-INF/applicationContext.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382529276608" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-war/src/main/java/com/gpsol/iqcard/controllers/cards/SamsungWalletController.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382540000465" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/samsung-wallet/src/test/java/com/gpsol/iqcard/samsung/wallet/test/SamsungWalletServiceTest.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382540209754" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/samsung-wallet/src/main/java/SamsungServiceCaller.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382541201778" ignored="false" />
+    <file path="/SamsungServiceCaller.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382541199582" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable-28/iqcard-supplier-itbank-outgoing/src/main/resources/logback.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382614298054" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core-dao/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382618860947" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-common/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382619283726" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-supplier-itbank-outgoing/src/main/resources/logback.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382625685832" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/logging/src/main/resources/logback.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382623282997" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/controllers/order/OrderManager.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382708733195" ignored="false" />
+    <file path="/OrderManager.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382708500757" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-war/src/main/java/ru/iqcard/controllers/order/OrderManagerImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382709929227" ignored="false" />
+    <file path="/OrderManagerImpl.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382709866183" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/autogen/ru/iqcard/model/QPostamatEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705500849" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-core/src/main/autogen/ru/iqcard/model/QIdentificationFormEntity.java" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705500850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-scheduler/src/main/resources/spring/mq.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705500850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-scheduler/src/main/resources/spring/dao.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705500850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/iqcard-scheduler/pom.xml" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705500850" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iqcard-stable/db/migrations/421.sql" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705548948" ignored="false" />
+    <file path="/421.sql" changelist="4a02fc8b-374b-43d2-9694-0c3513349483" time="1382705548221" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +375,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -237,6 +382,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -253,6 +399,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -264,6 +411,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -273,33 +421,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VKConnectorImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="333" column="5" selection-start="15684" selection-end="15684" vertical-scroll-proportion="0.79518074">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VacancyGroupPostTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/VacancyGroupPostTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3214#3222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="VKBot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/VKBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0">
+            <state line="67" column="98" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/MethodResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VKConnectorImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="4" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -308,11 +451,35 @@
       <file leaf-file-name="VacancyPostBot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/VacancyPostBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="100" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1538#1547#0" expanded="true" />
-              </folding>
+            <state line="26" column="121" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendInviteBot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="29" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="16" selection-start="379" selection-end="389" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -335,7 +502,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/hh/entities/VacancyDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/hh/entities/Vacancy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/hh/HHConnector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/VacancyPostBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/Post.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/VacancyGroupPostTask.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -343,6 +509,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/Group.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/GroupWallPostBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/VacancyPostBot.java" />
       </list>
     </option>
   </component>
@@ -412,7 +579,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -442,6 +609,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,6 +656,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vk-post-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vk-post-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -549,111 +746,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vk-post-helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vk-post-helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vk-post-helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vk-post-helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vk-post-helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vk-post-helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hh" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -671,6 +770,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -682,7 +782,7 @@
       <recent name="C:\projects\alkor\VKOpenRobot\vk-post-helper\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.group-wall-post-bot">
+  <component name="RunManager" selected="Application.VacancyPostBot">
     <configuration default="false" name="FriendInviteBot" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.alkor.vph.samples.FriendInviteBot" />
       <option name="VM_PARAMETERS" value="" />
@@ -798,6 +898,7 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="" />
           </MavenRunnerParameters>
         </option>
@@ -907,6 +1008,7 @@
                 <entry key="friend-invite-bot" value="true" />
               </map>
             </option>
+            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
         </option>
@@ -942,6 +1044,7 @@
                 <entry key="group-wall-post-bot" value="true" />
               </map>
             </option>
+            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
         </option>
@@ -988,27 +1091,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16768666" sideWeight="0.6708861" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16768666" sideWeight="0.6708861" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29436964" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29436964" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1039,7 +1142,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -1049,6 +1152,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -1062,6 +1169,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -1073,121 +1181,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="11" selection-start="6215" selection-end="6215" vertical-scroll-proportion="0.2123369" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="34" selection-start="1130" selection-end="1130" vertical-scroll-proportion="1.1494662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="65" selection-start="89478" selection-end="89485" vertical-scroll-proportion="0.9626506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="20" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKTokenProviderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="0.18613139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/hh/HHConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="46" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.68248177">
-          <folding />
-        </state>
+        <state line="71" column="46" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.68248177" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKTokenProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/commons-logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="36" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="719" column="16" selection-start="26827" selection-end="26827" vertical-scroll-proportion="0.3326613" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/VacancyGroupPostTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="32" selection-start="3315" selection-end="3315" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/WallPostResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.14116251" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/GroupWallPostTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="11" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/GroupWallPostBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKTokenProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+        <state line="11" column="16" selection-start="379" selection-end="389" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/entities/MethodResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="13" selection-start="3063" selection-end="3063" vertical-scroll-proportion="0.0">
+        <state line="12" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/commons-logging.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/VKBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+        <state line="67" column="98" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/GroupWallPostBot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="719" column="16" selection-start="26827" selection-end="26827" vertical-scroll-proportion="0.3326613">
+        <state line="35" column="4" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/VacancyPostBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="100" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1538#1547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/VKBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0">
+        <state line="26" column="121" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/tasks/VacancyGroupPostTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/samples/FriendInviteBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3214#3222#0" expanded="true" />
-          </folding>
+        <state line="21" column="29" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alkor/vph/vk/VKConnectorImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="5" selection-start="15684" selection-end="15684" vertical-scroll-proportion="0.79518074">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>

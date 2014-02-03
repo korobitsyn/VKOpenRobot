@@ -65,11 +65,11 @@ public class VKConnectorImpl implements VKConnector {
 
     public List<Group> searchGroups(String query, int count, String token) throws IOException {
         String request = String.format(groupsSearchUrl, URLEncoder.encode(query, "UTF-8"), 0, count, token);
-        log.info(request);
+        log.debug(request);
         HttpGet httpGet = new HttpGet(request);
         HttpResponse response = client.execute(httpGet);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         JsonNode resultTree = objectMapper.readTree(responseBody);
         ArrayNode arrayNode = (ArrayNode)resultTree.get("response");
@@ -84,7 +84,7 @@ public class VKConnectorImpl implements VKConnector {
 
     public List<User> getUsers(Collection<Long> userIds, String token) throws IOException {
         String request = usersGetUrl;
-        log.info(request);
+        log.debug(request);
         HttpPost httpPost = new HttpPost(request);
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
 
@@ -101,11 +101,11 @@ public class VKConnectorImpl implements VKConnector {
 
         nameValuePairs.add(new BasicNameValuePair("fields", "bdate,sex,city,online"));
         nameValuePairs.add(new BasicNameValuePair("access_token", token));
-        log.info(nameValuePairs);
+        log.debug(nameValuePairs);
         httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
         HttpResponse response = client.execute(httpPost);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         JsonNode resultTree = objectMapper.readTree(responseBody);
         ArrayNode responseJsonNode = (ArrayNode)resultTree.get("response");
@@ -131,11 +131,11 @@ public class VKConnectorImpl implements VKConnector {
 
     public List<Long> getGroupMembers(long groupId, int count, String token) throws IOException {
         String request = String.format(groupMembersSearchUrl, groupId, 0, count, token);
-        log.info(request);
+        log.debug(request);
         HttpGet httpGet = new HttpGet(request);
         HttpResponse response = client.execute(httpGet);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         JsonNode resultTree = objectMapper.readTree(responseBody);
         JsonNode responseJsonNode = resultTree.get("response");
@@ -149,16 +149,16 @@ public class VKConnectorImpl implements VKConnector {
 
     public void joinGroup(long groupId, String token) throws IOException {
         String request = String.format(joinGroupUrl, groupId, token);
-        log.info(request);
+        log.debug(request);
         HttpGet httpGet = new HttpGet(request);
         HttpResponse response = client.execute(httpGet);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
     }
 
     public AddFriendResult addFriend(long uid, String text, Captcha captcha, String token) throws IOException {
         String request = friendsAddUrl;
-        log.info(request);
+        log.debug(request);
         HttpPost httpPost = new HttpPost(request);
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
         nameValuePairs.add(new BasicNameValuePair("user_id", String.valueOf(uid)));
@@ -172,14 +172,14 @@ public class VKConnectorImpl implements VKConnector {
 
         HttpResponse response = client.execute(httpPost);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         return createAddFriendResult(responseBody);
     }
 
     public WallPostResult wallPost(Long gid, Post post, Captcha captcha, String token) throws IOException {
         String request = wallPostWithAttachmentsUrl;
-        log.info(request);
+        log.debug(request);
         HttpPost httpPost = new HttpPost(request);
 
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
@@ -204,12 +204,12 @@ public class VKConnectorImpl implements VKConnector {
             nameValuePairs.add(new BasicNameValuePair("captcha_key", captcha.getCaptchaKey()));
         }
 
-        log.info(nameValuePairs);
+        log.debug(nameValuePairs);
         httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
 
         HttpResponse response = client.execute(httpPost);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         JsonNode jsonNode = objectMapper.readTree(responseBody);
         WallPostResult wallPostResult = new WallPostResult();
@@ -229,7 +229,6 @@ public class VKConnectorImpl implements VKConnector {
             wallPostResult.setSuccess(true);
             wallPostResult.setPostId(jsonNode.get("response").get("post_id").asLong());
         }
-
         return wallPostResult;
     }
 
@@ -243,7 +242,7 @@ public class VKConnectorImpl implements VKConnector {
 
     public AddFriendResult setStatus(String text, String token) throws IOException {
         String request = setStatusUrl;
-        log.info(request);
+        log.debug(request);
         HttpPost httpPost = new HttpPost(request);
 
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
@@ -253,7 +252,7 @@ public class VKConnectorImpl implements VKConnector {
 
         HttpResponse response = client.execute(httpPost);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         return createAddFriendResult(responseBody);
     }
@@ -287,13 +286,13 @@ public class VKConnectorImpl implements VKConnector {
     private String getMyWallUploadServer(String token) throws IOException {
         String request = String.format(getWallUploadServerUrl, 1, token);
 //        String request = String.format(getWallUploadServerUrl, token);
-        log.info(request);
+        log.debug(request);
         HttpGet httpGet = new HttpGet(request);
         HttpResponse response = client.execute(httpGet);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
 
         JsonNode responseJsonNode = objectMapper.readTree(responseBody);
-        log.info(responseBody);
+        log.debug(responseBody);
 
         return responseJsonNode.get("response").get("upload_url").asText();
     }
@@ -308,14 +307,14 @@ public class VKConnectorImpl implements VKConnector {
         httppost.setEntity(mpEntity);
         HttpResponse response = client.execute(httppost);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         return objectMapper.readValue(responseBody, UploadedPhoto.class);
     }
 
     private String saveMyWallPhoto(UploadedPhoto uploadedPhoto, String token) throws IOException {
         String request = saveWallPhotoUrl;
-        log.info(request);
+        log.debug(request);
         HttpPost httpPost = new HttpPost(request);
 
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
@@ -327,7 +326,7 @@ public class VKConnectorImpl implements VKConnector {
 
         HttpResponse response = client.execute(httpPost);
         String responseBody = IOUtils.toString(response.getEntity().getContent(), "UTF-8");
-        log.info(responseBody);
+        log.debug(responseBody);
 
         JsonNode responseJsonTree = objectMapper.readTree(responseBody);
         return responseJsonTree.get("response").get(0).get("id").asText();
